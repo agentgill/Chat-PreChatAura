@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0053z00000ArzgKAAR",
+    "createdByName": "Michael Gill",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "labels/CustomLabels.labels",
+    "fullName": "CustomLabels",
+    "id": "",
+    "lastModifiedById": "0053z00000ArzgKAAR",
+    "lastModifiedByName": "Michael Gill",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "namespacePrefix": "",
+    "type": "CustomLabels"
+  }
+}

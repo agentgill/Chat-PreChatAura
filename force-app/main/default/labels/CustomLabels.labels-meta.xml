@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>gdpr_privacy_notice</fullName>
+        <categories>Prechat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>gdpr-privacy-notice</shortDescription>
+        <value>Please note that we will record this chat and process your personal data in accordance with our</value>
+    </labels>
+    <labels>
+        <fullName>gdpr_privacy_notice_url</fullName>
+        <categories>Prechat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>gdpr-privacy-notice-url</shortDescription>
+        <value>https://gdpr.eu/privacy-notice/</value>
+    </labels>
+</CustomLabels>

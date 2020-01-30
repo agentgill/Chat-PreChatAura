@@ -1,0 +1,63 @@
+<!--
+  @File Name          : PreChatForm.cmp
+  @Description        : 
+  @Author             : agentgill
+  @Group              : 
+  @Last Modified By   : agentgill
+  @Last Modified On   : 30/01/2020, 11:05:06
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    30/01/2020   agentgill     Initial Version
+-->
+<aura:component
+    implements="lightningsnapin:prechatUI"
+    description="Sample custom pre-chat component for Embedded Chat. Implemented using Aura."
+>
+    <!-- You must implement "lightningsnapin:prechatUI" for this component to appear in the "Pre-chat Component" customization dropdown in the Embedded Service setup -->
+
+    <!-- Pre-chat field components to render -->
+    <aura:attribute
+        name="prechatFieldComponents"
+        type="List"
+        description="An array of objects representing the pre-chat fields specified in pre-chat setup."
+    />
+
+    <!-- Handler for when this component is initialized -->
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}" />
+
+    <!-- For Aura performance -->
+    <aura:locator
+        target="startButton"
+        description="Pre-chat form submit button."
+    />
+
+    <!-- Contains methods for getting pre-chat fields, starting a chat, and validating fields -->
+    <lightningsnapin:prechatAPI aura:id="prechatAPI" />
+
+    <div>
+        <br />
+
+        <aura:iteration items="{!v.prechatFieldComponents}" var="field">
+            {!field}
+        </aura:iteration>
+        <br />
+        <div>
+            <button
+                class="button black-button start-chatting"
+                onclick="{!c.handleStartButtonClick}"
+            >
+                {!$Label.LiveAgentPrechat.StartChat}
+            </button>
+            <div class="gdpr-privacy-notice">
+                <p>
+                    {!$Label.c.gdpr_privacy_notice} <br />
+                    <a
+                        href="{!$Label.c.gdpr_privacy_notice_url}"
+                        target="_blank"
+                        >privacy notice</a
+                    >
+                </p>
+            </div>
+        </div>
+    </div>
+</aura:component>

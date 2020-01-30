@@ -1,0 +1,75 @@
+.THIS {
+}
+
+.THIS label.uiLabel {
+    display: none;
+}
+
+.THIS .form-text-input {
+    height: 48px;
+    width: 273px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.THIS .form-text-input-area {
+    height: 119px;
+    width: 273px;
+    margin-bottom: 10px;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.THIS .forms-text-input {
+    height: 48px;
+    width: 273px;
+    margin-bottom: 10px;
+}
+
+.THIS .button {
+    height: 60px;
+    width: 189px;
+}
+.THIS .black-button {
+    height: 40px;
+    width: 188px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.THIS .start-chatting {
+    height: 26px;
+    width: 160px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.THIS .gdpr-privacy-notice {
+    color: #0064d0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+}
